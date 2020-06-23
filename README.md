@@ -20,13 +20,13 @@ result = translator.get_info()
 Simple sentence translation:
 ```python
 result = translator.translate(
-    text="Hello my names is foo", source_lang=translator.EN, target_lang=translator.IT)
+    text="Happy Coding", source_lang=translator.EN, target_lang=translator.IT)
 ```
 
 Auto detect source language:
 ```python
 result = translator.translate(
-    text="Hello my names is foo", target_lang=translator.IT)
+    text="Happy Coding", target_lang=translator.IT)
 ```
 
 Translate many sentences:
