@@ -7,8 +7,10 @@ Easily use the deepl translator from python
 ```
 
 ## Use
-Create instance:
+Import and instance:
 ```python
+from deepl_translator import DeeplTranslator
+
 translator = DeeplTranslator(api_key="YOUR_API_KEY_HERE")
 ```
 
@@ -33,5 +35,5 @@ Translate many sentences:
 ```python
 
 result = translator.translate(
-    text=["Hello guys", "Happy Coding", "Bye Bye"], target_lang=translator.IT)
+    text=["Hi guys", "Happy Coding", "Bye Bye"], target_lang=translator.IT)
 ```
